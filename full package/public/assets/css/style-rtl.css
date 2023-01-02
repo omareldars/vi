@@ -1,0 +1,20 @@
+/*================================================================================
+	Masterencode
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+body,.navigation,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,.header-navbar,.table th, .table td {
+	font-family:'Rubik', Cairo, Arial, serif !important;
+}
+.table.dataTable thead .sorting:before, .table.dataTable thead .sorting:after, .table.dataTable thead .sorting_asc:before, .table.dataTable thead .sorting_asc:after, .table.dataTable thead .sorting_desc:before, .table.dataTable thead .sorting_desc:after{
+	right: 3px;left:unset;
+}
+.breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+    content: '\ea49';
+}
+div.dataTables_wrapper div.dataTables_filter {
+	text-align: left !important;
+}
